@@ -1,0 +1,25 @@
+<com.example.pc.touchevent.OuterViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000ff"
+    tools:context=".MainActivity">
+
+    <com.example.pc.touchevent.MiddleViewGroup
+        android:layout_centerInParent="true"
+        android:background="#00ff00"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+
+        <com.example.pc.touchevent.InnerView
+            android:layout_centerInParent="true"
+            android:background="#ff0000"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+    </com.example.pc.touchevent.MiddleViewGroup>
+
+
+
+</com.example.pc.touchevent.OuterViewGroup>
