@@ -1,3 +1,4 @@
+###Android事件分发消费机制
 ####相关的三个类：
 Activity，ViewGroup，View(这里特指不包含子控件的View)。
 
